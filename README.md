@@ -22,12 +22,17 @@ For your part, you've been asked to produce two container components that will
 wrap a single presentation component, `<MovieReviews>`, which lists a series of
 movie reviews on the page.
 
+<!-- <MovieReviews> component is parent, presentational component -->
+
 The two container components you've been asked to create will use this single
 presentational component in different ways. The first,
-`<LatestMovieReviewsContainer>`, will fetch a list of the most recent reviews
-and display them. The second, `<SearchableMovieReviewsContainer>`, will provide
-a searchable interface allowing the user to enter a search term and then receive
-a list of reviews that match the search term(s).
+
+`<LatestMovieReviewsContainer>`
+
+fetch a list of the most recent reviews and display them
+
+ `<SearchableMovieReviewsContainer>`
+ provide a searchable interface allowing the user to enter a search term and then receive a list of reviews that match the search term(s).
 
 You can tackle these components in whatever order you wish, but it might make
 sense to start with the more static (and thus simpler)
